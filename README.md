@@ -1,7 +1,7 @@
 The solution is based on AngularJS.
 
 Remember to test this on chrome and with CORS extension installed. 
-Otherwise console will throw No 'Access-Control-Allow-Origin' header is present on the requested resource. 
+Otherwise, console will throw No 'Access-Control-Allow-Origin' header is present on the requested resource. 
 Origin 'http://localhost' is therefore not allowed access.
 
 CORS Externsion for Chrome can be installed from the link below.
