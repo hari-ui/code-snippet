@@ -22,7 +22,7 @@ Harinath Veligandla
   <body>
     <article ng-app="meowApp">
       <section ng-controller="catsCtrl">
-        <h2>Male</h1>
+        <h2>Male</h2>
         <!--List cats owned by a Male owner, order by name-->
         <ul ng-repeat="owner in people" ng-show="owner.gender == 'Male' && owner.pets != null">
           <li ng-repeat="petname in owner.pets | orderBy:'name'" ng-show="petname.type == 'Cat'">
@@ -30,7 +30,7 @@ Harinath Veligandla
           </li>
         </ul>
         
-        <h2>Female</h1>
+        <h2>Female</h2>
         <!--List cats owned by a Female owner, order by name-->
         <ul ng-repeat="owner in people" ng-show="owner.gender == 'Female' && owner.pets != null">
           <li ng-repeat="petname in owner.pets | orderBy:'name'" ng-show="petname.type == 'Cat'">
